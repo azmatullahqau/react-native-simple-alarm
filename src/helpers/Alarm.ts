@@ -21,6 +21,7 @@ export class Alarm {
   date: string;
   message: string;
   snooze: number;
+  category: string;
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   userInfo?: Record<string, any>;
   oid?: string | number;
@@ -85,6 +86,7 @@ export class Alarm {
       playSound = true,
       soundName = emptyProperty,
       number = emptyProperty,
+      category = emptyProperty,
       actions,
     }: AlarmType // repeat type is removed on purpose // changing repeat type would effect snooze logic
   ) {
@@ -117,6 +119,7 @@ export class Alarm {
     this.soundName = soundName;
     this.number = number;
     this.actions = actions;
+    this.category = category;
   }
 }
 
