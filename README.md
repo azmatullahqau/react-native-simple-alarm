@@ -5,13 +5,13 @@ Alarm clock functionality for react native ios and android built using [react-na
 
 ## Installing (React Native >= 0.60.0)
 
-Under the hood this library is using react-native-push-notification, @react-native-community/async-storage, and @react-native-community/push-notification-ios. These libraries will need to be installed as well.
+Under the hood this library is using react-native-push-notification, @react-native-async-storage/async-storage, and @react-native-community/push-notification-ios. These libraries will need to be installed as well.
 
-`npm install --save react-native-simple-alarm @react-native-community/async-storage @react-native-community/push-notification-ios react-native-push-notification`
+`npm install --save react-native-simple-alarm @react-native-async-storage/async-storage @react-native-community/push-notification-ios react-native-push-notification`
 
 or
 
-`yarn add react-native-simple-alarm @react-native-community/async-storage @react-native-community/push-notification-ios react-native-push-notification`
+`yarn add react-native-simple-alarm @react-native-async-storage/async-storage @react-native-community/push-notification-ios react-native-push-notification`
 
 For `iOS` using `cocoapods`, run:
 
@@ -21,11 +21,11 @@ $ cd ios/ && pod install
 
 ## Installing (React Native <= 0.59.x)
 
-`npm install --save react-native-simple-alarm @react-native-community/async-storage @react-native-community/push-notification-ios react-native-push-notification`
+`npm install --save react-native-simple-alarm @react-native-async-storage/async-storage @react-native-community/push-notification-ios react-native-push-notification`
 
 or
 
-`yarn add react-native-simple-alarm @react-native-community/async-storage @react-native-community/push-notification-ios react-native-push-notification`
+`yarn add react-native-simple-alarm @react-native-async-storage/async-storage @react-native-community/push-notification-ios react-native-push-notification`
 
 Use `react-native link` to add the library to your project:
 
